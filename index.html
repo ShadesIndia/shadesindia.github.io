@@ -33,23 +33,27 @@
                 <p></p>
     &nbsp;
                  <img src="img/yif.png" height="50px" width="50px" alt="img/yif.png">
-  <div>
+
     <div>
+        
+    <div> <!--lol--> 
     <img class="shades" src="img/shades.png" height="186px" width="147px" alt="img/shades.png">
-        <h1 class="lead animate__animated animate__fadeInUp animate__delay-1s"><a><font size="+3">"POUR YOUR ART OUT"</font></a></h1>
+        <!--h1 class="lead animate__animated animate__fadeInUp animate__delay-1s"><a><font size="+3">"POUR YOUR ART OUT"</font></a></h1-->
+        <a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://fontmeme.com/permalink/201206/46d85a44b905f564fcfbf2616aaaf995.png" alt="cursive-fonts" border="0" height="52px" width="380px"></a>
         <h2 class="lead animate__animated animate__fadeInUp animate__delay-1s"></h2>
-        <p class="lead animate__animated animate__fadeInUp animate__delay-1s">An Initiative <br> by <br> Youth India Foundation</p>
+        <p class="lead animate__animated animate__fadeInUp animate__delay-1s">ᴀɴ ɪɴɪᴛɪᴀᴛɪᴠᴇ ʙʏ ʏᴏᴜᴛʜ ɪɴᴅɪᴀ ꜰᴏᴜɴᴅᴀᴛɪᴏɴ</p>
         <p class="lead">
             <a target="_blank" href="https://instagram.com/shadesbyyouthindia" style="animation-delay: 1.5s" class="btn btn-lg btn-dark  animate__animated animate__fadeInUp fab fa-instagram fa-2x "></a>
             <a target="_blank" href="https://www.youtube.com/channel/UCKeXIfySRQbp-CUWxr0hgqg" style="animation-delay: 1.75s" class="btn btn-lg btn-dark animate__animated animate__fadeInUp fab fa-youtube fa-2x"></a>
             <a target="_blank" href="https://www.facebook.com/shadesbyyouthindia" style="animation-delay: 1.90s" class="btn btn-lg btn-dark animate__animated animate__fadeInUp fab fa-facebook fa-2x"></a>
+            
             <!--a target="_blank" href="/cdn-cgi/l/email-protection#" style="animation-delay: 2.90s" class="btn btn-lg btn-outline-light animate__animated animate__fadeInUp fas fa-envelope"></a-->
 <br>
-<a href="https://rzp.io/l/TTyorfNh4e" class="myButton">Register For Shades </a>
+<a href="https://rzp.io/l/TTyorfNh4e" class="myButton"><strong>𝗥𝗘𝗚𝗜𝗦𝗧𝗘𝗥 𝗙𝗢𝗥 𝗦𝗛𝗔𝗗𝗘𝗦</strong></a>
 <style>
 .myButton {
 	box-shadow: 0px 0px 5px -50px #3dc21b;
-	background-color:#AFD275;
+	background-color:#F8DC61;
 	border-radius:120px;
 	display:inline-block;
 	cursor:pointer;
@@ -69,7 +73,7 @@
 }
 </style>
             <br>
-<a href="https://rzp.io/l/W5I3oIQar" class="myButton1">Donate </a>
+<a href="https://rzp.io/l/W5I3oIQar" class="myButton1">𝗗𝗢𝗡𝗔𝗧𝗘</a>
 <style>
 .myButton1 {
 	box-shadow: 0px 0px 5px -50px #3dc21b;
@@ -91,106 +95,70 @@
 	position:relative;
 	top:1px;
 }
-</style>
-            <br><p></p>
-
-        <div id="clockdiv">
-  <div>
-    <span class="days"></span>
-    <div class="smalltext">Days</div>
-  </div>
-  <div>
-    <span class="hours"></span>
-    <div class="smalltext">Hours</div>
-  </div>
-  <div>
-    <span class="minutes"></span>
-    <div class="smalltext">Minutes</div>
-  </div>
-  <div>
-    <span class="seconds"></span>
-    <div class="smalltext">Seconds</div>
-  </div>
-    <style>
-#clockdiv{
-	font-family: sans-serif;
-	color: #f77082;
-	display: inline-block;
-	font-weight: 100;
-	text-align: center;
-	font-size: 20px;
-}
-
-#clockdiv > div{
-	padding: 5px;
-	border-radius: 3px;
-	background: ;
-	display: inline-block;
-}
-
-#clockdiv div > span{
-	padding:12px;
-	border-radius: 3px;
-	background: ;
-    opacity: ;
-	display: inline-block;
-}
-
-.smalltext{
-	padding-top: 1px;
-	font-size: 11px;
-}</style>
-    
-<script>function getTimeRemaining(endtime) {
-  var t = Date.parse(endtime) - Date.parse(new Date());
-  var seconds = Math.floor((t / 1000) % 60);
-  var minutes = Math.floor((t / 1000 / 60) % 60);
-  var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-  var days = Math.floor(t / (1000 * 60 * 60 * 24));
-  return {
-    'total': t,
-    'days': days,
-    'hours': hours,
-    'minutes': minutes,
-    'seconds': seconds
-  };
-}
-
-function initializeClock(id, endtime) {
-  var clock = document.getElementById(id);
-  var daysSpan = clock.querySelector('.days');
-  var hoursSpan = clock.querySelector('.hours');
-  var minutesSpan = clock.querySelector('.minutes');
-  var secondsSpan = clock.querySelector('.seconds');
-
-  function updateClock() {
-    var t = getTimeRemaining(endtime);
-
-    daysSpan.innerHTML = t.days;
-    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
-
-    if (t.total <= 0) {
-      clearInterval(timeinterval);
-    }
-  }
-
-  updateClock();
-  var timeinterval = setInterval(updateClock, 1000);
-}
-
-var deadline = new Date(Date.parse(new Date()) + 20 * 24 * 60 * 60 * 1000);
-initializeClock('clockdiv', deadline);</script>
-            
+</style> 
+            <br>
     <br>
       </div>
-      
+      <a href="http://shadesindia.in/Competition_Rules.pdf" class="myButton4">𝗖𝗢𝗠𝗣𝗘𝗧𝗜𝗧𝗜𝗢𝗡 𝗗𝗘𝗧𝗔𝗜𝗟𝗦</a>
+<style>
+.myButton4 {
+	box-shadow: 0px 0px 5px -50px #3dc21b;
+	background-color:	#804585;
+	border-radius:7px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:17px;
+	padding:14px 43px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    position: absolute;
+    bottom: 40px;
+}
+.myButton4:hover {
+	background-color:#5cbf2a;
+}
+.myButton4:active {
+	position:relative;
+	top:1px;
+}
+</style> 
       <div>
+          <div>
+        <br>
+<a href="https://forms.gle/26piYTPAsEvPdd3d6" class="myButton2">𝗝𝗢𝗜𝗡 𝗨𝗦</a>
+<style>
+.myButton2 {
+	box-shadow: 0px 0px 5px -50px #3dc21b;
+	background-color:#F77082;
+	border-radius: 7px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:17px;
+	padding:14px 43px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    position: absolute;
+    top: 10px;
+    right: 11px;
 
+}
+.myButton1:hover {
+	background-color:#5cbf2a;
+}
+.myButton1:active {
+	position: absolute;
+	top:1px;
+}
+</style> 
+              
+</div>
       </div>
       
-  </div> 
+</div> 
 </div>
 
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/popper.min.js"></script>
