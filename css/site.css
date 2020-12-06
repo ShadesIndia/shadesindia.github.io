@@ -46,6 +46,7 @@ body {
 
 .lead {
     text-align: center;
+    padding-bottom: 20;
  }
  
  .lead > a {
