@@ -24,7 +24,7 @@ body {
     height: 100%;
     width: 100%;
     position: absolute;
-    top: 0;
+    top: 20;
     left: 0;
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -50,7 +50,7 @@ body {
  }
  
  .lead > a {
-   margin-bottom: 0.1em;
+   margin-bottom: 0.5em;
  }
 
 .bg-dark {
